@@ -6,7 +6,7 @@ import java.util.UUID;
 public class Alert {
     class AlertService {
 
-        private final MapAlertDAO storage = new MapAlertDAO();
+        private MapAlertDAO storage = new MapAlertDAO();
 
         public AlertService(MapAlertDAO alertDAO){
             this.storage = alertDAO;
